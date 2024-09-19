@@ -24,7 +24,7 @@ public class Main {
     }
 
     public  static String cap(String s){
-
+       //sDFGYhjb -> Sdfgyhjb
         s=s.toLowerCase();
         StringBuilder r=new StringBuilder(s);
 
