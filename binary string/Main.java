@@ -23,11 +23,21 @@ public class Main {
         System.out.println(ans);
     }
 
+    public  static String cap(String s){
 
+        s=s.toLowerCase();
+        StringBuilder r=new StringBuilder(s);
+
+        r.setCharAt(0,Character.toUpperCase(s.charAt(0)));
+        System.out.println(r);
+        String h=r.toString();
+        return h;
+
+    }
 
     public static void main(String[] args) {
 
 converter("11011");
-
+cap("gfbfGJ");
     }
 }
